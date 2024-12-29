@@ -1,15 +1,6 @@
-// pages/index.js
-import Head from 'next/head';
-
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Influence Connect</title>
-        <meta name="description" content="Connecting influencers with brands seamlessly." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className="bg-gray-50 min-h-screen">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
@@ -38,22 +29,22 @@ export default function Home() {
         {/* Features Section */}
         <section id="features" className="py-20">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12">Platform Features</h2>
+            <h2 className="text-3xl text-black font-bold text-center mb-12">Platform Features</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <h3 className="text-xl font-semibold mb-4">Curated Influencer List</h3>
+                <h3 className="text-xl font-semibold mb-4 text-black">Curated Influencer List</h3>
                 <p className="text-gray-700">
                   Discover influencers filtered by industry, audience, and engagement rates.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <h3 className="text-xl font-semibold mb-4">Seamless Connections</h3>
+                <h3 className="text-xl font-semibold mb-4 text-black">Seamless Connections</h3>
                 <p className="text-gray-700">
                   Easily reach out to influencers and negotiate collaborations.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <h3 className="text-xl font-semibold mb-4">Transparent Pricing</h3>
+                <h3 className="text-xl font-semibold mb-4 text-black">Transparent Pricing</h3>
                 <p className="text-gray-700">
                   View influencer rates upfront for hassle-free budgeting.
                 </p>
