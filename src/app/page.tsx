@@ -4,11 +4,17 @@ export default function Home() {
       <main className="bg-gray-50 min-h-screen">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
-          <div className="container mx-auto px-6 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Connect with Top Influencers</h1>
+          <div className="container mx-auto px-6 text-center space-y-5">
+            <h1 className="text-2xl md:text-6xl font-bold mb-4">We Are Launching Soon...</h1>
+            <h2 className="text-4xl md:text-3xl font-bold mb-6">Connect with Top Influencers</h2>
             <p className="text-lg md:text-xl mb-8">
               The ultimate platform to connect brands and influencers for effective promotions.
             </p>
+            <div className="flex justify-center">
+              <h1 className="text-2xl md:text-3xl font-bold mb-4">
+                If you have any questions, please contact us at{' relimatch@gmail.com'}
+              </h1>
+            </div>
             <div>
               <a
                 href="#features"
@@ -30,7 +36,7 @@ export default function Home() {
         <section id="features" className="py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl text-black font-bold text-center mb-12">Platform Features</h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
                 <h3 className="text-xl font-semibold mb-4 text-black">Curated Influencer List</h3>
                 <p className="text-gray-700">
@@ -61,7 +67,7 @@ export default function Home() {
               Sign up now to discover and connect with top influencers for your next campaign.
             </p>
             <a
-              href="/signup"
+              href="#"
               className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
             >
               Sign Up Now
@@ -72,7 +78,7 @@ export default function Home() {
 
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto text-center">
-          <p className="text-sm">&copy; 2024 Influence Connect. All rights reserved.</p>
+          <p className="text-sm">&copy; 2024 ReliMatch. All rights reserved.</p>
         </div>
       </footer>
     </div>
